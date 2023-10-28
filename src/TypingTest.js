@@ -11,7 +11,7 @@ function TypingTest({ onTypingSpeedChange }) {
   const startTest = () => {
     setUserInput('');
     setStartTime(null); // Reset the start time
-    setText("This is your test text. Replace it with your own content.");
+    setText("Zero possible towering defiant coherent scatter rabid adhesive.");
     setWordsPerMinute('0.00');
     onTypingSpeedChange('0.00');
     setMistake(false); // Reset mistake state
