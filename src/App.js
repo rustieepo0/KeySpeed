@@ -22,8 +22,16 @@ function App() {
           <a href="https://github.com/rustieepo0" target='_blank' rel='noopener noreferrer'>
             <button className='github-button'><DiGithubBadge></DiGithubBadge>Github</button>
           </a>
-          <button className='text-button'>Light's On</button>
-        </div>
+          <button className='text-button'>Themes</button>
+      </div>
+      <i>(!Still Working on Themes!)</i>
+      <br />
+      <i>.</i>
+      <br />
+      <i>.</i>
+      <br />
+      <i>Testing the waters...</i>
+
     </div>
   );
 }
