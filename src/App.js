@@ -22,7 +22,7 @@ function App() {
           <a href="https://github.com/rustieepo0" target='_blank' rel='noopener noreferrer'>
             <button className='github-button'><DiGithubBadge></DiGithubBadge>Github</button>
           </a>
-          <button className='text-button'>Pending.</button>
+          <button className='text-button'>Light's On</button>
         </div>
     </div>
   );
