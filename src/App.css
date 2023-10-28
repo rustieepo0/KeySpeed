@@ -1,42 +1,3 @@
-/* App.css 
-
-.App {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  background-color: #002b36;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.NavBar {
-  background-color: #073e57;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.App-header {
-  background-color: #002b36;
-  min-height: 70vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-  margin-top: 10px;
-}
-*/
-
-/* App.css */
-
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -59,6 +20,38 @@ body {
   padding: 20px 0;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.github-button {
+  background-color: #23c97f;
+  color: #002b36;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.text-button {
+  background-color: #23c97f;
+  color: #002b36;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 .App-container {

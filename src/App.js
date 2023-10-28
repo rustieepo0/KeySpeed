@@ -1,30 +1,5 @@
-/*
-// App.js
-import React, { useState } from 'react'
-//import React from 'react';
-import TypingTest from './TypingTest'; // Import the TypingTest component
-import './App.css';
-
-function App() {
-  const [typingSpeed, setTypingSpeed] = useState(null);
-
-  return (
-    <div className="App">
-      <div className="navbar">
-        <h1>KeySpeed</h1>
-      </div>
-      <header className="App-header">
-      <h3>Typing-Speed: {typingSpeed} WPM</h3>
-      </header>
-      <TypingTest onTypingSpeedChange={setTypingSpeed} /> {/* Include the TypingTest component } uncomment here
-    </div>
-  );
-}
-
-export default App;
-*/
-
 import React, { useState } from 'react';
+import {DiGithubBadge} from "react-icons/di"
 import TypingTest from './TypingTest';
 import './App.css';
 
@@ -42,6 +17,13 @@ function App() {
         </header>
         <TypingTest onTypingSpeedChange={setTypingSpeed} />
       </div>
+
+      <div className='buttonContainer'>
+          <a href="https://github.com/rustieepo0" target='_blank' rel='noopener noreferrer'>
+            <button className='github-button'><DiGithubBadge></DiGithubBadge>Github</button>
+          </a>
+          <button className='text-button'>Pending.</button>
+        </div>
     </div>
   );
 }
