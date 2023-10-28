@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+// App.js
+import React, { useState } from 'react'
+//import React from 'react';
+import TypingTest from './TypingTest'; // Import the TypingTest component
 import './App.css';
 
 function App() {
+  const [typingSpeed, setTypingSpeed] = useState(null);
+
   return (
     <div className="App">
+      <div className="navbar">
+        <h1>KeySpeed</h1>
+      </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h3>Typing-Speed: {typingSpeed} WPM</h3>
       </header>
+      <TypingTest onTypingSpeedChange={setTypingSpeed} /> {/* Include the TypingTest component */}
     </div>
   );
 }
